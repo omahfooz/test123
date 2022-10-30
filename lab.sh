@@ -4,9 +4,10 @@ mkdir 1
 cd 1
 lab install-troubleshoot start
 cp /usr/local/etc/ocp4.config .
-lab install-troubleshoot finish
 sleep 5
 mv ~/DO280 .
+lab install-troubleshoot finish
+
 cd ..
 
 
@@ -16,8 +17,9 @@ mkdir 2
 cd 2
 lab install-storage start
 cp /usr/local/etc/ocp4.config .
-lab install-storage finish
+sleep 5
 mv ~/DO280 .
+lab install-storage finish
 cd ..
 
 
@@ -27,8 +29,9 @@ mkdir 3
 cd 3
 lab auth-provider start
 cp /usr/local/etc/ocp4.config .
-lab auth-provider finish
+sleep 5
 mv ~/DO280 .
+lab auth-provider finish
 cd ..
 
 
@@ -38,8 +41,9 @@ mkdir 4
 cd 4
 lab auth-rbac start
 cp /usr/local/etc/ocp4.config .
-lab auth-rbac finish
+sleep 5
 mv ~/DO280 .
+lab auth-rbac finish
 cd ..
 
 
@@ -49,9 +53,10 @@ mkdir 5
 cd 5
 lab auth-review start
 cp /usr/local/etc/ocp4.config .
+sleep 5
+mv ~/DO280 .
 lab auth-review grade
 lab auth-review finish
-mv ~/DO280 .
 cd ..
 
 
@@ -61,8 +66,9 @@ mkdir 6
 cd 6
 lab authorization-secrets start
 cp /usr/local/etc/ocp4.config .
-lab authorization-secrets finish
+sleep 5
 mv ~/DO280 .
+lab authorization-secrets finish
 cd ..
 
 
@@ -72,8 +78,9 @@ mkdir 7
 cd 7
 lab authorization-scc start
 cp /usr/local/etc/ocp4.config .
-lab authorization-scc finish
+sleep 5
 mv ~/DO280 .
+lab authorization-scc finish
 cd ..
 
 
@@ -83,8 +90,9 @@ mkdir 8
 cd 8
 lab authorization-review start
 cp /usr/local/etc/ocp4.config .
-lab authorization-review finish
+sleep 5
 mv ~/DO280 .
+lab authorization-review finish
 cd ..
 
 
@@ -96,8 +104,9 @@ mkdir 9
 cd 9
 lab network-sdn start
 cp /usr/local/etc/ocp4.config .
-lab network-sdn finish
+sleep 5
 mv ~/DO280 .
+lab network-sdn finish
 cd ..
 
 
@@ -109,8 +118,9 @@ mkdir 10
 cd 10
 lab network-ingress start
 cp /usr/local/etc/ocp4.config .
-lab network-ingress finish
+sleep 5
 mv ~/DO280 .
+lab network-ingress finish
 cd ..
 
 
@@ -121,8 +131,9 @@ mkdir 11
 cd 11
 lab network-policy start
 cp /usr/local/etc/ocp4.config .
-lab network-policy finish
+sleep 5
 mv ~/DO280 .
+lab network-policy finish
 cd ..
 
 
@@ -134,8 +145,9 @@ mkdir 12
 cd 12
 lab network-review start
 cp /usr/local/etc/ocp4.config .
-lab network-review finish
+sleep 5
 mv ~/DO280 .
+lab network-review finish
 cd ..
 
 
@@ -146,8 +158,9 @@ mkdir 13
 cd 13
 lab schedule-pods start
 cp /usr/local/etc/ocp4.config .
-lab schedule-pods finish
+sleep 5
 mv ~/DO280 .
+lab schedule-pods finish
 cd ..
 
 
@@ -159,8 +172,9 @@ mkdir 14
 cd 14
 lab schedule-limit start
 cp /usr/local/etc/ocp4.config .
-lab schedule-limit finish
+sleep 5
 mv ~/DO280 .
+lab schedule-limit finish
 cd ..
 
 
@@ -171,8 +185,9 @@ mkdir 15
 cd 15
 lab schedule-scale start
 cp /usr/local/etc/ocp4.config .
-lab schedule-scale finish
+sleep 5
 mv ~/DO280 .
+lab schedule-scale finish
 cd ..
 
 
@@ -183,8 +198,9 @@ mkdir 16
 cd 16
 lab schedule-review start
 cp /usr/local/etc/ocp4.config .
-lab schedule-review finish
+sleep 5
 mv ~/DO280 .
+lab schedule-review finish
 cd ..
 
 
@@ -195,8 +211,9 @@ mkdir 17
 cd 17
 lab console-admin start
 cp /usr/local/etc/ocp4.config .
-lab console-admin finish
+sleep 5
 mv ~/DO280 .
+lab console-admin finish
 cd ..
 
 
@@ -207,8 +224,9 @@ mkdir 18
 cd 18
 lab console-workloads start
 cp /usr/local/etc/ocp4.config .
-lab console-workloads finish
+sleep 5
 mv ~/DO280 .
+lab console-workloads finish
 cd ..
 
 
@@ -220,8 +238,9 @@ mkdir 19
 cd 19
 lab console-metrics start
 cp /usr/local/etc/ocp4.config .
-lab console-metrics finish
+sleep 5
 mv ~/DO280 .
+lab console-metrics finish
 cd ..
 
 
@@ -232,8 +251,9 @@ mkdir 20
 cd 20
 lab console-review start
 cp /usr/local/etc/ocp4.config .
-lab console-review finish
+sleep 5
 mv ~/DO280 .
+lab console-review finish
 cd ..
 
 
@@ -244,8 +264,9 @@ mkdir 21
 cd 21
 lab review-troubleshoot start
 cp /usr/local/etc/ocp4.config .
-lab review-troubleshoot finish
+sleep 5
 mv ~/DO280 .
+lab review-troubleshoot finish
 cd ..
 
 
@@ -255,14 +276,7 @@ mkdir 22
 cd 22
 lab review-template start
 cp /usr/local/etc/ocp4.config .
-lab review-template finish
+sleep 5
 mv ~/DO280 .
+lab review-template finish
 cd ..
-
-
-
-
-
-
-
-
